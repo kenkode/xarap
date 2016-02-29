@@ -11,6 +11,7 @@ use Zizaco\Entrust\HasRole;
 class User extends Eloquent implements ConfideUserInterface {
 
 	use ConfideUser, HasRole;
+
 	
 
 	/**
@@ -41,7 +42,10 @@ class User extends Eloquent implements ConfideUserInterface {
     ];
 
 
-    
+    public function property(){
+
+		return $this->hasMany('Property');
+	}
 
 
 }

@@ -38,6 +38,12 @@ return array(
 		'accounting' => 'Accounting',
 		'reports' => 'Reports',
 		'administration' => 'Administration',
+		'payroll' => 'Payroll',
+		'erp' => 'ERP',
+		'leave' => 'Leave',
+		'cbs' => 'CBS',
+		'payroll_leave' => 'Payroll & Leave',
+		'employees' => 'Employees',
 		
 
 		),

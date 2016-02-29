@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'xaracore',
+			'database'  => 'cytonn',
 			'username'  => 'root',
 			'password'  => '',
 			'port' => '3306',

@@ -49,7 +49,7 @@
 
     								<?php if($user->confirmed){ ?>
 
-                    <li><a href="{{URL::to('tellers/create/'.$user->id)}}">Make Teller</a></li>
+                    <!--<li><a href="{{URL::to('tellers/create/'.$user->id)}}">Make Teller</a></li>-->
                     
     								<li><a href="{{URL::to('users/deactivate/'.$user->id)}}">Deactivate</a></li>
 
@@ -91,7 +91,7 @@
 
 
       	
-      	<form method="POST" action="{{{ URL::to('users') }}}" accept-charset="UTF-8">
+      	<form method="POST" action="{{{ URL::to('users/newuser') }}}" accept-charset="UTF-8">
    
     <fieldset>
         <div class="form-group">

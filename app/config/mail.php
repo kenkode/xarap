@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => 'tacsixsacco@gmail.com', 'name' => 'Tacsix Sacco'),
+	'from' => array('address' => 'wangoken2@gmail.com', 'name' => 'Lixnet Tech'), 
 
 	/*
 	|--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return array(
 	|
 	*/
 
-	'username' => 'tacsixsacco@gmail.com',
+	'username' => 'wangoken2@gmail.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return array(
 	|
 	*/
 
-	'password' => 'tacsix2015',
+	'password' => 'samsonkennedy',
 
 	/*
 	|--------------------------------------------------------------------------
